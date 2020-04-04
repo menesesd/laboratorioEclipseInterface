@@ -75,7 +75,7 @@ public class OrdenPedido {
 	        }
 
 	        if (!isSucursalPrincipal && !isSucursalSecundaria) {
-	            errores += "- Debe elegir almenos una sucursal \n\r";
+	            errores += "- Debe elegir al menos una sucursal \n\r";
 	        }
 
 	        this.nombre = nombre;
